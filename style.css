@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.con {
+
+    max-width: 1440px;
+    background-color: blueviolet;
+    background-image: url("images/bg-desktop.svg");
+    background-size: cover;
+
+}
+
+.imag {
+    height: 405px;
+
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 20px;
+    padding: 40px;
+
+}
+
+.menu {
+    padding: 17px;
+    margin-left: 30px;
+}
+
+.social {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 35px;
+    padding-right: 50px;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.text-con {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+
+}
+
+p {
+    line-height: 1.6;
+    font-weight: 400;
+    color: aliceblue;
+    margin-top: 18px;
+}
+
+.register {
+    height: 40px;
+    background-color: #BFDB38;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(15, 15, 15, 0.541);
+
+}
+
+.register:hover {
+    background-color: #ffffff;
+}
+
+.register a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.register a:hover {
+    color: #BFDB38;
+}
+
+.register a:link,
+.register a:visited {
+    text-decoration: none;
+}
