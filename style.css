@@ -8,6 +8,7 @@
 .con {
 
     max-width: 1440px;
+    height: fit-content;
     background-color: blueviolet;
     background-image: url("images/bg-desktop.svg");
     background-size: cover;
